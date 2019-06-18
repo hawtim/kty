@@ -1,24 +1,28 @@
 {
-  "name": "puppeteer-tinypng",
+  "name": "kty",
   "version": "1.0.0",
-  "description": "",
+  "description": "Script to process image compress via tinypng",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/kty"
   },
+  "keywords": [
+    "node",
+    "tinypng",
+    "dist",
+    "vue",
+    "react",
+    "compress",
+    "image",
+    "build"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hawtim/puppeteer-tinypng.git"
+    "url": "https://github.com/hawtim/kzip.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "kunkka <vastfield@163.com> (https://github.com/hawtim)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hawtim/puppeteer-tinypng/issues"
-  },
-  "homepage": "https://github.com/hawtim/puppeteer-tinypng#readme",
-  "dependencies": {
-    "puppeteer": "^1.15.0",
-    "tinify": "^1.6.0-beta.2"
+  "devDependencies": {
+    "@mora/tinypng": "0.0.8"
   }
 }
